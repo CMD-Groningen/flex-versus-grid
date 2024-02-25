@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Grid of Flex? Hangt er van af.</h1>
+    <nav>
+        <a href="">Flex</a>
+        <a href="">Is handig</a>
+        <a href="">voor navlinks</a>
+        <a href="">in navigaties</a>
+        <a href="">contact</a>
+    </nav>
+    <header>
+        hieronder staan 3 witte kolommen. Voor de lay-out van de drie kolommen naast elkaar in dezelfde breedte is <strong>display:grid </strong> gebruikt. Maar voor de lay-out van de content <strong>IN </strong>de witte containers is <strong>display:flex</strong> gebruikt!
+    </header>
+
+
+    <main>
+        <article>
+            <h2>Grids zijn stramienen</h2>
+            <p>Als je een heel strak stramien nodig hebt dat uitgelijnd is, zoals voor de 3 witte kolommen op deze pagina, gebruik dan grid. Wil je dat de HTML elementen rekening houden met hun flexibele inhoud bij het bepalen van de lay-out, zoals bij de <strong>zwarte tags</strong> in de witte kolommen rechts, gebruik dan flex!</p>
+
+            <p>Hieronder is als uitzondering <strong>grid</strong> in plaats van flex gebruikt voor de container met de zwarte tags . Let op hoe de zwarte tags zich gedragen. ze zijn niet flexibel meer van zichzelf en blijven het grid stramien volgen.</p>
+            <h2>
+                Grid
+            </h2>
+            <section class="alternative">
+                <a href="#" target="_blank">reizen</a>
+                <a href="#" target="_blank">vakantie</a>
+                <a href="#" target="_blank">culinair</a>
+                <a href="#" target="_blank">bestemmingen</a>
+                <a href="#" target="_blank">vervoer</a>
+                <a href="#" target="_blank">restaurants</a>
+                <a href="#" target="_blank">attracties</a>
+                <a href="#" target="_blank">kleding</a>
+                <a href="#" target="_blank">discotheken</a>
+                <a href="#" target="_blank">verkeer</a>
+            </section>
+        </article>
+        <article>
+            <h2>Flex is flexibel</h2>
+            <p>Als je een heel strak stramien nodig hebt dat <strong>uitgelijnd</strong> is, zoals voor de 3 witte kolommen op deze pagina, gebruik dan grid. Wil je dat de HTML elementen rekening houden met hun flexibele inhoud bij het bepalen van de lay-out, zoals bij de <strong>zwarte tags hieronder</strong>, gebruik dan flex!</p>
+
+            <pre>
+.tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    }
+            </pre>
+            <h2>Flex</h2>
+            <section class="tags">
+                <a href="#" target="_blank">reizen</a>
+                <a href="#" target="_blank">vakantie</a>
+                <a href="#" target="_blank">culinair</a>
+                <a href="#" target="_blank">bestemmingen</a>
+                <a href="#" target="_blank">vervoer</a>
+                <a href="#" target="_blank">restaurants</a>
+                <a href="#" target="_blank">attracties</a>
+                <a href="#" target="_blank">kleding</a>
+                <a href="#" target="_blank">discotheken</a>
+                <a href="#" target="_blank">verkeer</a>
+            </section>
+        </article>
+
+        <article>
+            <h2>Flex is flexibel</h2>
+            <p>Als je een heel strak stramien nodig hebt dat uitgelijnd is, zoals voor de 3 witte kolommen op deze pagina, gebruik dan grid. Wil je dat de HTML elementen rekening houden met hun flexibele inhoud bij het bepalen van de lay-out, zoals bij de <strong>zwarte tags hieronder</strong>, gebruik dan flex!</p>
+
+
+            <pre>
+.tags a {
+    display: flex;
+    flex-grow: 1;
+    }
+            </pre>
+
+            <h2>Flex</h2>
+            <section class="tags flex-grow">
+                <a href="#" target="_blank">reizen</a>
+                <a href="#" target="_blank">vakantie</a>
+                <a href="#" target="_blank">culinair</a>
+                <a href="#" target="_blank">bestemmingen</a>
+                <a href="#" target="_blank">vervoer</a>
+                <a href="#" target="_blank">restaurants</a>
+                <a href="#" target="_blank">attracties</a>
+                <a href="#" target="_blank">kleding</a>
+                <a href="#" target="_blank">discotheken</a>
+                <a href="#" target="_blank">verkeer</a>
+            </section>
+        </article>
+    </main>
+
+</body>
+
+</html>
