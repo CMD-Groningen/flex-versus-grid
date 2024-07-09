@@ -5,7 +5,7 @@ Bestanden **downloaden** naar je laptop? [Klik hier](https://github.com/CMD-Gron
 Preview in de browser? [Klik hier](https://cmd-groningen.github.io/flex-versus-grid)  
 Speel live met deze code in **CodeSandbox** > [Klik hier!](https://codesandbox.io/s/github/CMD-Groningen/flex-versus-grid) 
 
-Voorbeelden van opmaak in CSS, zodat je layouts gemaakt met grid kan vergelijken met layouts gemaakt met flex.
+Voorbeeld van een GRID naast een FLEX lay-out, met uitleg wanneer je het een of het ander gebruikt! Het is een code voorbeeld, zodat je meteen ook de opbouw in HTML en CSS kan zien.
 
 ----------------------
 **David van den Bor**  
